@@ -1,0 +1,98 @@
+{
+  "data": [
+    {
+      "identifier": "headline",
+      "settings": {},
+      "data": {
+        "sv": "Skriv {{count}} kreativa förslag på svenska till rubriken '{{text}}' \n"
+      },
+      "fields": [
+        {
+          "label": "suggestions",
+          "type": "count",
+          "target": "count",
+          "default": 3
+        },
+        {
+          "label": "text",
+          "type": "text",
+          "target": "text"
+        }
+      ]
+    },
+    {
+      "identifier": "marketing_campaign",
+      "settings": {},
+      "data": {
+        "sv": "Ge {{count}} kreativa förslag på marknadsföringskampanjer för en {{text}}\n"
+      },
+      "fields": [
+        {
+          "label": "suggestions",
+          "type": "count",
+          "target": "count",
+          "default": 3
+        },
+        {
+          "label": "text",
+          "type": "text",
+          "target": "text"
+        }
+      ]
+    },
+    {
+      "identifier": "blog_outline",
+      "settings": {},
+      "data": {
+        "sv": "Skriv en punktlista med {{count}} underrubriker för en artikel som handlar om {{text}}.\n"
+      },
+      "fields": [
+        {
+          "label": "suggestions",
+          "type": "count",
+          "target": "count",
+          "default": 3
+        },
+        {
+          "label": "text",
+          "type": "text",
+          "target": "text"
+        }
+      ]
+    },
+    {
+      "identifier": "competitors",
+      "settings": {},
+      "data": {
+        "sv": "Hitta {{count}} konkurrenter till {{text}}\n"
+      },
+      "fields": [
+        {
+          "label": "suggestions",
+          "type": "count",
+          "target": "count",
+          "default": 3
+        },
+        {
+          "label": "company_name",
+          "type": "text",
+          "target": "text"
+        }
+      ]
+    },
+    {
+      "identifier": "freestyle",
+      "settings": {},
+      "data": {
+        "sv": "{{freestyle}}\n"
+      },
+      "fields": [
+        {
+          "label": "freestyle_label",
+          "type": "text",
+          "target": "freestyle"
+        }
+      ]
+    }
+  ]
+}

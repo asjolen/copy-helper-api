@@ -139,4 +139,4 @@ GitHub.sublime-settings
 # Mac/OSX
 .DS_Store
 .env
-firebase.json
+utils/firebase/firebase.json
